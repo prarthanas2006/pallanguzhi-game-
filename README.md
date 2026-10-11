@@ -18,8 +18,8 @@
 
 ## Project Metadata
 
-* **Project Title:** `[Your Project Title]`
-* **Team Name:** `[Your Team Name]`
+* **Project Title:** `[Pallanguzhi game incorporating Qiskit quantum circuit simulations]`
+* **Team Name:** `[Prarthana S]`
 * **Chosen Track:** `[Track 1: Quantum Games & Interactive Puzzles OR Track 2: Open-Domain Optimization & Real-World Solvers]`
 * **Video Presentation Link:** `[Insert YouTube Unlisted / Google Drive / Loom URL here]`
   *(⚠️ Crucial: Ensure link access is set to "Anyone with the link can view" on Google Drive or "Unlisted / Public" on YouTube. Locked/inaccessible links cannot be scored!)*
@@ -28,7 +28,7 @@
 ### Team Members (Max 4 members)
 | Name | Email | GitHub Username |
 | :--- | :--- | :--- |
-| `[Member 1 Name]` | `[Email]` | `[@username]` |
+| `[Prarthana S]` | `[prarthana.s2006@gmail.com]` | `[@prarthanas2006]` |
 | `[Member 2 Name]` | `[Email]` | `[@username]` |
 | `[Member 3 Name]` | `[Email]` | `[@username]` |
 | `[Member 4 Name]` | `[Email]` | `[@username]` |
@@ -38,26 +38,26 @@
 ## 1. Project Overview & Motivation
 
 * **Summary (3–4 sentences):**  
-  `[Provide a concise executive summary of what you built. What is the game or optimization dilemma?]`
+  `[Quantum Pallanguzhi, an interactive digital version of the traditional Tamil board game Pallanguzhi, enhanced with quantum computing using Qiskit.You play against an AI opponent that uses measurement outcomes from a three-qubit quantum circuit to select a valid pit.Three Hadamard gates create a superposition of eight possible outcomes, which are measured to select pits.A two-qubit entangled Bell-state circuit generates correlated measurement outcomes. Depending on the result, two opposite pits either each gain two stones or remain unchanged.]`
 
 * **Why this problem / game?**  
-  `[Explain why you chose this specific topic. Why is it engaging, practically relevant, or pedagogically meaningful?]`
+  `[I actually wanted to see the digital version of some Indian traditional game in action and also to learn how quantum generated measurements influences gameplay.]`
 
 ---
 
 ## 2. Quantum Architecture & Mechanics
 
 * **Core Quantum Principles Used:**  
-  `[Specify the exact quantum principles at play: e.g., Superposition (H gate), Entanglement (Bell states / CNOT), Measurement Collapse, Interference, or QAOA Cost Hamiltonian.]`
+  `[Superposition (H gate), Quantum Measurement , Quantum Entanglement (Bell states),Probabilistic outcomes]`
 
 * **How the Quantum Circuit is Integrated:**  
-  `[Explain how quantum states map to your game board, strategy, or optimization problem. How does your Qiskit circuit interact with player input or the optimization loop?]`
+  `[Quantum states are mapped to game actions through measurement outcomes. The Qiskit circuits generate possible outcomes, and the classical game logic translates those outcomes into pit selections or changes to the board.The game doesn't solve an optimization problem. The circuit does not guarantee a strategically strong move.]`
 
 * **Circuit Details:**  
-  * **Number of Qubits:** `[e.g., 4 qubits]`
-  * **Key Gates Used:** `[e.g., H, CX, RZ, Measurement]`
-  * **Primitives Used:** `[e.g., StatevectorSampler, StatevectorEstimator, or Qiskit Aer simulator]`
-  * **Other Technologies Used:** `[e.g., Streamlit for UI, NetworkX for graph generation, Pygame, etc. (Note: Qiskit must power the quantum logic)]`
+  * **Number of Qubits:** `[3 qubits for pit selection; 2 qubits for Quantum Link]`
+  * **Key Gates Used:** `[H, CX, Measurement]`
+  * **Primitives Used:** `[shot-based quantum circuit simulation using Qiskit Aer simulator]`
+  * **Other Technologies Used:** `[Python, HTML, CSS, JavaScript and IPython display]`
 
 ```python
 # Optional: Paste a representative snippet of your core Qiskit circuit code here
