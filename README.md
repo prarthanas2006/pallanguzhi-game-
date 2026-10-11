@@ -29,9 +29,7 @@
 | Name | Email | GitHub Username |
 | :--- | :--- | :--- |
 | `[Prarthana S]` | `[prarthana.s2006@gmail.com]` | `[@prarthanas2006]` |
-| `[Member 2 Name]` | `[Email]` | `[@username]` |
-| `[Member 3 Name]` | `[Email]` | `[@username]` |
-| `[Member 4 Name]` | `[Email]` | `[@username]` |
+
 
 ---
 
@@ -89,7 +87,7 @@
 
 1. **Clone the repository:**
    ```bash
-   git clone [your-repo-url]
+   git clone [https://github.com/prarthanas2006/pallanguzhi-game-.git]
    cd [your-repo-folder]
    ```
 2. **Install dependencies:**
